@@ -8,10 +8,10 @@ import { CiUser } from "react-icons/ci";
 export const About = () => {
   return (
     <div className='about-container'>
-      <div className='flex-child'>
+      <div className='flex-child img-abt'>
       <img className="aboutbg" src={about} alt='about picture'></img>
       </div>
-      <div className='flex-child'>
+      <div className='flex-child text-abt'>
       <h1 className='subtitle'><CiUser></CiUser>About Me</h1> 
             <p className='about-paragraph'>My name is Dana Garout, and I am based in Dammam, 
             Saudi Arabia. Studying computer science with a

@@ -1,10 +1,4 @@
-/* .about-page{
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
+
 .aboutbg{
     width: 600px;
     border-radius: 10px;
@@ -27,12 +21,17 @@
 } */
 .aboutbg{
     width: 600px;
+
 }
+
 .about-container{
     display: flex;
 }
 .flex-child{
     flex: 1;
+    
+    padding: 20px;
+    align-items: center;
 }
 @media only screen and (max-width: 1064px){
     /* .about-page{

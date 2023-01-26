@@ -85,18 +85,20 @@ export const Card = () => {
             link:'https://dark-mode-flax.vercel.app/'
         },
         {
-            title:'Sidebar Navbar',
-            projectImg: project14,
-            link:'https://sidebar-jet.vercel.app/'
-        },
-        {
             title:'Password Generator',
             projectImg: project15,
             link: 'https://challenge5-brown.vercel.app/'
+        },
+        {
+            title:'Sidebar Navbar',
+            projectImg: project14,
+            link:'https://sidebar-jet.vercel.app/'
         }
+        
 
 
-    ])
+    ]);
+    
   return (
     <div className='card-page'>
         <section className='card-section'>
@@ -104,12 +106,15 @@ export const Card = () => {
                 <h1 className='card-title'><VscCode></VscCode>Portfolio</h1>
                 <div className='cards'>
                    {
+                    
                     cards.map((card, i) => (
+                        
                         <div className='card' key={i}>
-                            <h3 className='project-title'>{card.title}</h3>
+                            <h3 className='project-title'><a target="_blank" href={card.link}>{card.title}</a></h3>
+                            <a target="_blank" href={card.link}>
                             <img  className='card-img' src={card.projectImg} alt=""></img>
+                            </a>
                            
-                            <a target="_blank" href={card.link}><button className="view">View</button></a>
                         </div>
                     ))
                    }
