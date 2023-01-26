@@ -1,0 +1,139 @@
+.home-bg{
+    
+    background-color: #535353;
+   
+}
+.home{
+    width: 100%;
+}
+.header{
+    background-color: #b3b3b3;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    width: 80px; 
+    height: 80px;
+    
+    margin-bottom: 10px;
+}
+.icons{
+    color: #1db954;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;  
+}
+.icons:hover{
+    color: #535353;
+}
+li.nav__items{
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #1db954;
+}
+li.nav__items:hover{
+    font-weight: 600;
+    color: #535353;
+    
+}
+
+.home__content{
+    padding: 125px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(198, 201, 216, 0.75);
+}
+h2.home__text{
+    color: #8d99ae;
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #b3b3b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3.home__text{
+    font-size: 70px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: #1db954;
+}
+h4.home__text{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home__meta{ 
+    background-color: #535353;
+    width: 700px;
+    margin-top: 100px;
+}
+.toggle{
+    visibility: hidden;
+}
+.profile{
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+li.tech-icon{
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    color: #b3b3b3;
+    
+}
+li.tech-icon:hover{
+    color: #1db954;
+    font-size: 38px;
+    height: 38px;
+    width: 38px;
+}
+.techs{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1064px){
+    .navigation{
+        visibility: hidden;
+    }.header{
+        position: fixed;
+        width: 100%;
+        height: 100px;
+    }
+   .socials{
+        visibility: visible;
+        position: fixed;
+        width: 100%;
+        margin-left: 50%;
+        font-size: 50px;
+        background-color: #b3b3b3;
+        border: 1px solid #b3b3b3;
+    }
+    .home__content{
+        flex-direction: column;
+        
+    }
+    .home__meta{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+   
+    
+}
