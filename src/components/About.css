@@ -7,6 +7,7 @@
     display: flex;
     margin-left: 20px;
     
+    
 }
 .aboutbg{
     width: 50%;
@@ -61,8 +62,14 @@ button:hover{
     background-color: #535353;
 }
 @media only screen and (max-width: 1064px){
+    .about-page{
+        max-width: 100%;
+    }
     .about-title{
         font-size: 45px;
+    }
+    .subtitle{
+        font-size: 30px;
     }
     .aboutbg{
         width: 58%;
